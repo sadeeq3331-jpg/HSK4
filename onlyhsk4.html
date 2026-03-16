@@ -530,8 +530,8 @@
       backdrop-filter: blur(4px);
     }
   </style>
-  <!-- Load word list first -->
-  <script src="words.js"></script>
+  <!-- Load word list from the new file -->
+  <script src="wordsonlyhsk4.js"></script>
 </head>
 <body>
 <div class="app-container">
@@ -616,7 +616,7 @@
     // ---------- GLOBAL STATE ----------
     const wordList = window.HSK4_WORDS || [];
     if (wordList.length === 0) {
-      alert('Error: Word list not loaded. Check words.js file.');
+      alert('Error: Word list not loaded. Check wordsonlyhsk4.js file.');
       return;
     }
     console.log('Word list loaded, length:', wordList.length);
