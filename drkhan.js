@@ -327,7 +327,7 @@
             conversations.push({
                 id: Date.now(),
                 name: 'New Chat',
-                messages: [{ role: 'assistant', content: '👋 Hi! I\'m Dr. Khan, your Chinese learning assistant. Ask me about vocabulary, grammar, or anything about learning Chinese!', timestamp: Date.now() }]
+                messages: [{ role: 'assistant', content: '👋 Hi! I\'m Sadeeq, your Chinese learning assistant. Ask me about vocabulary, grammar, or anything about learning Chinese!', timestamp: Date.now() }]
             });
         }
         if (!currentConvId) currentConvId = conversations[0].id;
@@ -1486,7 +1486,7 @@ ${personalityInstruction}`;
         // Floating suggestion label
         const suggestionLabel = document.createElement('div');
         suggestionLabel.className = 'drkhan-suggestion';
-        suggestionLabel.textContent = '💬 Ask Dr. Khan';
+        suggestionLabel.textContent = '💬 Ask Sadeeq';
         suggestionLabel.style.cssText = `
             position: fixed; bottom: 90px; left: 20px;
             background: rgba(10,41,66,0.92); color: white;
